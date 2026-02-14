@@ -1,4 +1,3 @@
---data exploration
 
 --number of rows?
 SELECT COUNT(*)
@@ -46,3 +45,4 @@ FROM zepto
 GROUP BY name
 HAVING COUNT(sku_id) > 1
 ORDER BY count(sku_id) DESC;
+
